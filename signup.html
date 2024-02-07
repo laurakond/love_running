@@ -75,6 +75,7 @@
           <h2>
             <i class="fa-solid fa-heart-pulse"></i>Let's get you signed up!
           </h2>
+
           <label for="first_name">First Name</label>
           <input
             type="text"
@@ -102,19 +103,37 @@
             required
           />
           <br />
-          <div>
-            <label for="road">Road</label>
-            <input type="radio" name="running_preference" id="road" checked />
+          <div class="radio-buttons">
+            <div>
+              <label for="road">Road</label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="road"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="trail">Trail</label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="trail"
+                required
+              />
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="both"
+                required
+              />
+            </div>
           </div>
-          <div>
-            <label for="trail">Trail</label>
-            <input type="radio" name="running_preference" id="trail" />
-          </div>
-          <div>
-            <label for="both">Both</label>
-            <input type="radio" name="running_preference" id="both" />
-          </div>
-          <input type="submit" value="Let's Run!" class="join-button" />
+          <input type="submit" value="Submit" class="join-button" />
         </form>
       </section>
     </main>
