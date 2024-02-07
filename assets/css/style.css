@@ -94,6 +94,8 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
     /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -203,7 +205,18 @@ main {
 }
 
 /* Form */
+#signup {
+    background-image: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
 
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, .6);
+    margin: 20px 10% 0 10%;
+}
 
 
 /* Footer */
