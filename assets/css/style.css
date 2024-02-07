@@ -210,12 +210,13 @@ main {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
+    padding: 20px 10% 0 10%;
 }
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, .6);
-    margin: 20px 10% 0 10%;
+    padding: 30px;
 }
 
 
